@@ -7,14 +7,20 @@ ${data.description}
 ${data.link}
 ## Table of Contents
 * [Features](#features)
-* [Usage](#HowtoUseThisApplication)
+* [Insatllation](#installation)
+* [Usage](#usage)
+* [License](#License)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
 ## Features
 ${data.features}
-## How to Use This Application:
+## Installation
+${data.installation}
+## Usage
 ${data.usage}
+## License
+${data.license}
 ## Contributors
 ${data.contributors}
 ## Testing

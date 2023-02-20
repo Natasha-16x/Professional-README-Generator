@@ -38,6 +38,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "installation",
+        message: "What do you need to install to use this application", // question for project installation
+    },
+    {
+        type: "input",
         name: "name",
     message: "What is your name.", // question for name
     },
