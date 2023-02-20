@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require('path');
-const inquirer = import("inquirer");
+const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -14,11 +14,6 @@ const questions = [
         type: "input",
         name: "description",
         message: "Describe the purpose and functionality of this project", // question of description section
-    },
-    {
-        type: "input",
-        name: "screenshot",
-        message: "please provide the relative path to the screenshot of the application", // question for providing screenshot
     },
     {
         type: "input",
@@ -40,6 +35,11 @@ const questions = [
         type: "input",
         name: "features",
         message: "List the top features of this project", // question for project features
+    },
+    {
+        type: "input",
+        name: "name",
+    message: "What is your name.", // question for name
     },
     {
         type: "input",
@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log("Please wait while we create your professional README.md file");
-        writeToFile("./README.md", generateMarkdown({ ...responses }));
+        writeToFile("./output/README.md", generateMarkdown({ ...responses }));
 })
 };
 

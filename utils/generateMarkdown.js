@@ -3,28 +3,24 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ## Description
 ${data.description}
-## Screenshot of Application
-![alt-text](${data.screenshot})
 ## Link to the Deployed Site
 ${data.link}
 ## Table of Contents
 * [Features](#features)
-* [Languages & Dependencies](#languagesanddependencies)
-* [How to Use This Application](#HowtoUseThisApplication)
+* [Usage](#HowtoUseThisApplication)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
 ## Features
 ${data.features}
-## Languages & Dependencies
-${data.require}
 ## How to Use This Application:
 ${data.usage}
 ## Contributors
 ${data.contributors}
 ## Testing
 ${data.test}
-## Contact Me
+## questions
+### If you have any further questions, you can contact me below
 * Name - ${data.name}
 * Email - ${data.email}
 * GitHub - [${data.creator}](https://github.com/${data.creator}/)
