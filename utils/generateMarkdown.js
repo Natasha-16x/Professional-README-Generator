@@ -12,7 +12,7 @@ ${data.link}
 * [License](#License)
 * [Contributors](#contributors)
 * [Testing](#testing)
-* [Questions](#questions)
+* [Questions](#Questions)
 ## Features
 ${data.features}
 ## Installation
@@ -25,7 +25,7 @@ ${data.license}
 ${data.contributors}
 ## Testing
 ${data.test}
-## questions
+## Questions
 ### If you have any further questions, you can contact me below
 * Name - ${data.name}
 * Email - ${data.email}
