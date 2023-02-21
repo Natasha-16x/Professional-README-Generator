@@ -9,7 +9,8 @@ Install node.js and inquirer
 ## Usage
 To use this application, open the directory in your terminal.
 Run the command node index.js and a series of questions will appear for you to answer.
-Your answers will then be created into a README.md file 
+Your answers will then be created into a README.md file.
+The README.md file will be stored in the folder named output.
 
 ## Credits
 N/A
